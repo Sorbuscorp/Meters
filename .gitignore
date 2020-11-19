@@ -1,10 +1,10 @@
-C:\Meters\backend\MetersDjangoServer\.vs\*
-C:\Meters\backend\MetersDjangoServer\obj\*
-C:\Meters\backend\MetersDjangoServer\DjangoEnv\*
-C:\Meters\backend\MetersDjangoServer\db.sqlite3
-C:\Meters\backend\MetersDjangoServer\MetersDjangoServer.pyproj.user
-C:\Meters\backend\MetersDjangoServer\MetersDjangoServer.sln
-C:\Meters\backend\MetersDjangoServer\MetersDjangoServer.pyproj
+/backend/MetersDjangoServer/.vs/*
+/backend/MetersDjangoServer/obj/*
+/backend/MetersDjangoServer/DjangoEnv/*
+/backend/MetersDjangoServer/db.sqlite3
+/backend/MetersDjangoServer/MetersDjangoServer.pyproj.user
+/backend/MetersDjangoServer/MetersDjangoServer.sln
+/backend/MetersDjangoServer/MetersDjangoServer.pyproj
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio,python
