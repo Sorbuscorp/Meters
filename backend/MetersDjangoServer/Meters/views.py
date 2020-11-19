@@ -18,6 +18,7 @@ def convert_to_float(str_data):
 	else:
 		return ret
 
+#add some comment
 @login_required
 def meter(request):
 	if request.method == 'GET':
