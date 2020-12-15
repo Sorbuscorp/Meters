@@ -507,4 +507,3 @@ MigrationBackup/
 backend/MetersDjangoServer/.vs/MetersDjangoServer/v16/.suo
 *.pyc
 frontend/WebApp/Макет.png
-frontend/my-app/.eslintcache
