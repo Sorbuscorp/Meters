@@ -34,7 +34,7 @@ def user(request):
                 user.save()
                 return HttpResponse(status=200)
             else:
-                 return HttpResponse(status=401)
+                return HttpResponse(status=401)
         return HttpResponse(status=400)
 
     elif request.method == 'PUT':

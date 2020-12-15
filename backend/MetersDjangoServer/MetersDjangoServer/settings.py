@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 import os
 import posixpath
-
+from corsheaders.defaults import default_headers, default_methods
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -23,11 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '8c546e2d-369f-4d75-a6b9-a183a1d7e657'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-#APPEND_SLASH=False
+APPEND_SLASH=False
 
-ALLOWED_HOSTS = []
 
 # Application references
 # https://docs.djangoproject.com/en/2.1/ref/settings/#std:setting-INSTALLED_APPS
@@ -39,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
 
     #LOCAL
     'Users',
@@ -48,6 +48,8 @@ INSTALLED_APPS = [
 # Middleware framework
 # https://docs.djangoproject.com/en/2.1/topics/http/middleware/
 MIDDLEWARE = [
+    'MetersDjangoServer.middleware.CorsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -55,6 +57,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
 ]
 #Authentication backends
 AUTHENTICATION_BACKENDS = (
@@ -118,6 +121,35 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
+CORS_ORIGIN_ALLOW_ALL = False
+ALLOWED_HOSTS = []
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000"
+]
+
+
+CORS_ALLOW_METHODS=list(default_methods)
+CORS_ALLOW_HEADERS= list(default_headers) + [
+        #'Access-Control-Allow-Headers',
+        #'Access-Control-Allow-Credentials',
+    ]
+
+#CORS_EXPOSE_HEADERS=[
+#    'Access-Control-Allow-Headers',
+#    'Access-Control-Allow-Credentials',
+#    ]
+CORS_ALLOW_CREDENTIALS=True
+CSRF_TRUSTED_ORIGINS =[
+    "http://localhost:3000"
+]
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000',
+ ]
+
+#comment for standart cookies
+if DEBUG:
+    SESSION_COOKIE_SAMESITE=None
+    SESSION_COOKIE_SECURE = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 STATIC_URL = '/static/'
