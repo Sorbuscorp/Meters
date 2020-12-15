@@ -506,3 +506,5 @@ MigrationBackup/
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,python
 backend/MetersDjangoServer/.vs/MetersDjangoServer/v16/.suo
 *.pyc
+frontend/WebApp/Макет.png
+frontend/my-app/.eslintcache
