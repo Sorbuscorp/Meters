@@ -1,3 +1,28 @@
+async function  safeFetch(path, method){
+    let response;
+    try {
+        response = await fetch(path,{
+            method : method,
+            credentials: 'include',
+
+         } )
+    } catch (error) {
+        response={}
+        response.ok=false
+    }
+    
+
+   if (response.ok) {
+       return response
+   }
+   else{ 
+       console.log("network error:")
+       console.log(response)
+       return response
+   }
+    
+}
+
 
 export class MeterList{
 
@@ -10,51 +35,34 @@ export class MeterList{
     }
 
 
-    async update(){
-        let response = await fetch(this.path,{
-             credentials: 'include'
-          } )
+    async load(){
+        let response = await safeFetch(this.path, "GET")
 
-
-        if (response.ok) {
+        if (response.ok) 
             this.collection=await response.json();
-            return response.ok
-        }
-        else{ 
-            console.log("network error:")
-            console.log(response)
-            return response.ok
-        }
+
+        return response.ok
     }
 
     async append(name, description, data, verificationDate ){
-        let newMeter = {Name:name,Description:description,LastData:data,VerificationDate:verificationDate, id:"-1" }
+        let newMeter = {Name:name,Description:description,LastData:data,VerificationDate:verificationDate}
 
         let params=new URLSearchParams(newMeter);
         this.path.search=params
-
-        let response = await fetch(this.path,{
-            method:'PUT',
-            credentials: 'include'
-         } )
-
-
+        let response = await safeFetch(this.path, "PUT")
        if (response.ok) {
             newMeter.id=await response.text()
-            this.collection.append(newMeter)
-           return response.ok
-       }
-       else{ 
-           console.log("network error:")
-           console.log(response)
-           return response.ok
+            this.collection.push(newMeter)
        }
 
+       return response.ok
        
     }
 
 
 }
+
+
 
 export class Meter{
 
@@ -66,19 +74,12 @@ export class Meter{
     }
 
     async get(){
-        let response = await fetch(this.path,{
-            credentials: 'include'
-         } )
+        let response = await safeFetch(this.path,"GET")
 
-       if (response.ok) {
+       if (response.ok) 
            this.data=await response.json();
-           return response.ok
-       }
-       else{ 
-           console.log("network error:")
-           console.log(response)
-           return response.ok
-       }
+
+       return response.ok
     }
 
     async post(newData, newVerificationDate){
@@ -87,20 +88,8 @@ export class Meter{
             NewVerification : newVerificationDate
           });
         this.path.search=params
-        let response = await fetch(this.path,{
-            method : 'POST',
-            credentials: 'include',
-
-         } )
-
-       if (response.ok) {
-           return response.ok
-       }
-       else{ 
-           console.log("network error:")
-           console.log(response)
-           return response.ok
-       }
+        let response= await safeFetch(this.path, 'POST')
+        return response.ok
     }
 
     async delete(pwd){
@@ -108,20 +97,11 @@ export class Meter{
             UserPassword : pwd, //передача параметра как пароля!!!! TODO:Удали это зря что ли куки настраивал.
           });
         this.path.search=params
-        let response = await fetch(this.path,{
-            method : 'DELETE',
-            credentials: 'include',
+        let response= await safeFetch(this.path, 'DELETE')
+        return response.ok
 
-         } )
-
-       if (response.ok) {
-           return response.ok
-       }
-       else{ 
-           console.log("network error:")
-           console.log(response)
-           return response.ok
-       }
     }
 }
+
+
 

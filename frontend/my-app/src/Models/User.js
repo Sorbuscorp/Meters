@@ -1,4 +1,27 @@
+async function  safeFetch(path, method){
+    let response;
+    try {
+        response = await fetch(path,{
+            method : method,
+            credentials: 'include',
 
+         } )
+    } catch (error) {
+        response={}
+        response.ok=false
+    }
+    
+
+   if (response.ok) {
+       return response
+   }
+   else{ 
+       console.log("network error:")
+       console.log(response)
+       return response
+   }
+    
+}
 
 export class User{
 
@@ -14,19 +37,11 @@ export class User{
               Password : password
             });
         this.path.search=params;
-        let response = await fetch(this.path ,{
-             credentials: 'include' 
-            // headers:{"Access-Control-Allow-Credentials":""}
-          });
-        if (response.ok) {
+        let response = await safeFetch(this.path, "GET")
+        if (response.ok)
             console.log("user autorized!! ")
-            return response
-        }
-        else{ 
-            console.log("network error:")
-            console.log(response)
-            return response
-        }
+        
+        return response.ok
     }
     async register(login, password, name, email, address){
         this.method = "PUT"
@@ -38,19 +53,9 @@ export class User{
               Address : address
             });
         this.path.search=params;
-        let response = await fetch(this.path ,{
-            method:this.method
-            // credentials: 'include'  ,
-            // headers:{"Access-Control-Allow-Credentials":""}
-          });
-        if (response.ok) {
+        let response = await safeFetch(this.path, "PUT")
+        if (response.ok) 
             console.log("user registered!! ")
-            return response
-        }
-        else{ 
-            console.log("network error:")
-            console.log(response)
-            return response
-        }
+
     }
 }
