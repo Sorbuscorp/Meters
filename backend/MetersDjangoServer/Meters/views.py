@@ -49,10 +49,15 @@ def meter(request):
 			if (name is None) or (name==''):
 				name='some meter'
 			description=params.get('Description')
-			if description is None:
+			if description is None or (description==''):
 				description='this is meter'
 			data=convert_to_float(params.get('LastData'))
-			verDate=dateutil.parser.parse(params.get('VerificationDate')).date()
+
+			verdate = params.get('VerificationDate')
+			if verdate is None or (verdate==''):
+				verDate = datetime.datetime.today()
+			else:
+				verDate=dateutil.parser.parse(verdate).date()
 			user=request.user
 			if not user.is_authenticated:
 				return HttpResponse(status=401)
@@ -85,13 +90,13 @@ def meter_id(request, id):
 			collection['Description']=meter.description
 			collection['VerificationDate']=meter.verificationDate.isoformat()
 			collection['LastData'] = meter.getLastData().value
-			collection['MeterDataList'] = [{'data':var.value, 'dateTime':var.timestamp.isoformat()} for var in meterDataList]
+			collection['MeterDataList'] = [{'data':var.value, 'dateTime':var.timestamp.isoformat("T","seconds")[0:-6]} for var in meterDataList]
 			return HttpResponse(json.dumps(collection),status=200)
 		except:
 			return HttpResponse(status=400)
 
 	elif request.method == 'POST':
-		#try:
+		try:
 			params=request.GET	#params=MultiPartParser(request.META, request, request.upload_handlers).parse()[0]
 		
 			user=request.user
@@ -110,10 +115,11 @@ def meter_id(request, id):
 				meter.verificationDate = dateutil.parser.parse(new_verification).date()
 			data=MeterData(meter=meter, value=new_value)
 			data.save()
+			meter.save()
 
 			return HttpResponse(status=200)
-		#except:
-		#	return HttpResponse(status=400)
+		except:
+			return HttpResponse(status=400)
 
 	elif request.method == 'DELETE':
 		try:

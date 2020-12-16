@@ -1,0 +1,5 @@
+/backups
+/obj
+/.vs
+*/__pycache__
+*/migrations
