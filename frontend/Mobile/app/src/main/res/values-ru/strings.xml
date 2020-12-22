@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Счетчики</string>
+    <string name="Login">Логин</string>
+    <string name="Reg">Регистрация</string>
+    <string name="VerDate">Дата верификации</string>
+    <string name="LastData">Последние показания</string>
+    <string name="Send">Отправить</string>
+    <string name="Delete">Удалить</string>
+    <string name="Password">Пароль</string>
+    <string name="Name">Имя</string>
+    <string name="Address">Адрес</string>
+    <string name="Enter">Вход</string>
+</resources>

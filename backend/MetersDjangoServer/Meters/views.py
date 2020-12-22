@@ -19,7 +19,7 @@ def convert_to_float(str_data):
 		return ret
 
 
-@login_required
+
 def meter(request):
 	if request.method == 'GET':
 		try:
@@ -71,7 +71,7 @@ def meter(request):
 
 	return HttpResponse(status=405)
 
-@login_required
+
 def meter_id(request, id):
 	if request.method == 'GET':
 		try:
