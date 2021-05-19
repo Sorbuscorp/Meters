@@ -139,22 +139,13 @@ CORS_ALLOW_HEADERS= list(default_headers) + [
 #    'Access-Control-Allow-Credentials',
 #    ]
 CORS_ALLOW_CREDENTIALS=True
-<<<<<<< Updated upstream
-CSRF_TRUSTED_ORIGINS =[
-    "http://localhost:3000"
-]
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000',
- ]
-=======
-# CSRF_TRUSTED_ORIGINS =[
-    # "http://localhost:3000",
 
+# CSRF_TRUSTED_ORIGINS =[
+    # "http://localhost:3000"
 # ]
 # CORS_ORIGIN_WHITELIST = [
     # 'http://localhost:3000',
  # ]
->>>>>>> Stashed changes
 
 #comment for standart cookies
 if DEBUG:
