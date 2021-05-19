@@ -1,0 +1,12 @@
+version: "3"
+services:
+  api:
+    build: ./backend/MetersDjangoServer
+    ports:
+      - "8080:8080"
+    container_name: api
+  client:
+    build: ./frontend/my-app
+    ports:
+      - "3000:80"
+    container_name: client

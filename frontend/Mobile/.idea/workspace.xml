@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3580c9f-35c6-4cda-b392-ec0e19f75317" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/meters/FilledMeterFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../backend/MetersDjangoServer/Meters/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../backend/MetersDjangoServer/Meters/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../backend/MetersDjangoServer/MetersDjangoServer/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../backend/MetersDjangoServer/MetersDjangoServer/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../backend/MetersDjangoServer/MetersDjangoServer/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../backend/MetersDjangoServer/MetersDjangoServer/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/meters/HTTPResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/meters/HTTPResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/meters/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/meters/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/meters/Meter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/meters/Meter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/meters/MeterList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/meters/MeterList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/meters/ServerConnecter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/meters/ServerConnecter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/meters/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/meters/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1m1VMarjqkpGNWxlDi3QfONk8yi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-viewC:/Users/Sorbus/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_SELECTED" value="ViewPager2" />
+    <property name="android-custom-viewC:/Users/Sorbus/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-viewC:/Users/Sorbus/AppData/Local/Android/Sdk/sources/android-30/android/widget/EditText.java_SELECTED" value="EditText" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="multi-representation-previewC:/Users/Sorbus/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Sorbus/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Sorbus/AppData/Local/Android/Sdk/sources/android-30/android/widget/EditText.java_selected" value="Custom views" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Meters\frontend\Mobile\app\src\main\res\layout" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Meters.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3580c9f-35c6-4cda-b392-ec0e19f75317" name="Default Changelist" comment="" />
+      <created>1608661037227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608661037227</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1278" y="403" key="#Notifications" timestamp="1610434570846">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="1278" y="403" key="#Notifications/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1610434570846" />
+    <state x="734" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1608668879018">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="734" y="246" key="#com.intellij.ide.util.MemberChooser/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1608668879018" />
+    <state x="1140" y="239" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1610435175889">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="1140" y="239" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1610435175889" />
+    <state x="509" y="295" key="AndroidCreateResourceFileDialog" timestamp="1608667789104">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="509" y="295" key="AndroidCreateResourceFileDialog/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1608667789104" />
+    <state x="635" y="241" key="FileChooserDialogImpl" timestamp="1610434037587">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="635" y="241" key="FileChooserDialogImpl/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1610434037587" />
+    <state width="1814" height="266" key="GridCell.Tab.0.bottom" timestamp="1610359644196">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1814" height="266" key="GridCell.Tab.0.bottom/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1610359644196" />
+    <state width="1814" height="266" key="GridCell.Tab.0.center" timestamp="1610359644196">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1814" height="266" key="GridCell.Tab.0.center/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1610359644196" />
+    <state width="1814" height="266" key="GridCell.Tab.0.left" timestamp="1610359644196">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1814" height="266" key="GridCell.Tab.0.left/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1610359644196" />
+    <state width="1814" height="266" key="GridCell.Tab.0.right" timestamp="1610359644196">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1814" height="266" key="GridCell.Tab.0.right/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1610359644196" />
+    <state width="1814" height="266" key="GridCell.Tab.1.bottom" timestamp="1610359644197">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1814" height="266" key="GridCell.Tab.1.bottom/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1610359644197" />
+    <state width="1814" height="266" key="GridCell.Tab.1.center" timestamp="1610359644196">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1814" height="266" key="GridCell.Tab.1.center/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1610359644196" />
+    <state width="1814" height="266" key="GridCell.Tab.1.left" timestamp="1610359644196">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1814" height="266" key="GridCell.Tab.1.left/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1610359644196" />
+    <state width="1814" height="266" key="GridCell.Tab.1.right" timestamp="1610359644196">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1814" height="266" key="GridCell.Tab.1.right/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1610359644196" />
+    <state x="356" y="145" key="SettingsEditor" timestamp="1610436100862">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="356" y="145" key="SettingsEditor/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1610436100862" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/meters/FilledMeterFragment.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/meters/FilledMeterFragment.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/meters/FilledMeterFragment.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/meters/FilledMeterFragment.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/meters/FilledMeterFragment.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

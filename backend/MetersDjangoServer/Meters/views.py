@@ -138,8 +138,8 @@ def meter_id(request, id):
 				return HttpResponse(status=401)
 
 			#не особо нужная проверка но для сохранения соответствия API пусть будет
-			if not check_password(params.get('UserPassword'),user.password):
-				return HttpResponse(status=401)
+			#if not check_password(params.get('UserPassword'),user.password):
+			#	return HttpResponse(status=401)
 
 			meter.delete()
 
