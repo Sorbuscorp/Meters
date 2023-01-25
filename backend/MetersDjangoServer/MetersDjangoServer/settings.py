@@ -124,7 +124,9 @@ USE_TZ = True
 CORS_ORIGIN_ALLOW_ALL = False
 ALLOWED_HOSTS = []
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000"
+    "http://meters-client",
+    "http://localhost:1235",
+    "http://localhost:1234"
 ]
 
 
@@ -134,18 +136,20 @@ CORS_ALLOW_HEADERS= list(default_headers) + [
         #'Access-Control-Allow-Credentials',
     ]
 
-#CORS_EXPOSE_HEADERS=[
-#    'Access-Control-Allow-Headers',
-#    'Access-Control-Allow-Credentials',
-#    ]
+CORS_EXPOSE_HEADERS=[
+   'Access-Control-Allow-Headers',
+   'Access-Control-Allow-Credentials',
+   ]
 CORS_ALLOW_CREDENTIALS=True
 
-# CSRF_TRUSTED_ORIGINS =[
-    # "http://localhost:3000"
-# ]
-# CORS_ORIGIN_WHITELIST = [
-    # 'http://localhost:3000',
- # ]
+CSRF_TRUSTED_ORIGINS =[
+    "http://localhost:1235",
+    "http://localhost:1234"
+]
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:1235',
+    "http://localhost:1234"
+ ]
 
 #comment for standart cookies
 if DEBUG:

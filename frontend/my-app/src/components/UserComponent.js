@@ -86,10 +86,10 @@ export class UserPanel extends React.Component{
         return(
         <wired-card style={ {verticalAlign: 'top'}}>
             <wired-tabs selected={"login"}>
-                <wired-tab id={"login"} name={"login" } label={"Я уже смешарик"} style={{display : 'block'}}>   
+                <wired-tab id={"login"} name={"login" } label={"Вход"} style={{display : 'block'}}>   
                 <Login/>
                 </wired-tab>    
-                <wired-tab id={"Reg"} name={"Reg" } label={"Я новенький "} style={{display : 'block'}}>    
+                <wired-tab id={"Reg"} name={"Reg" } label={"Регистрация"} style={{display : 'block'}}>    
                 <Register/>
                 </wired-tab> 
             </wired-tabs>

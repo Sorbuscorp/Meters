@@ -3,10 +3,20 @@ services:
   api:
     build: ./backend/MetersDjangoServer
     ports:
-      - "8080:8080"
-    container_name: api
+      - "1234:8080"
+    container_name: meters-api
+    hostname: meters-api
+    networks:
+      - global
   client:
     build: ./frontend/my-app
     ports:
-      - "3000:80"
-    container_name: client
+      - "1235:80"
+    container_name: meters-client
+    hostname: meters-client
+    networks:
+      - global
+
+networks:
+  global:
+    external: true
