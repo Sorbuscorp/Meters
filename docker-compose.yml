@@ -18,5 +18,5 @@ services:
       - global
 
 networks:
-  global:
-    external: true
+  meters-network:
+    driver: bridge
