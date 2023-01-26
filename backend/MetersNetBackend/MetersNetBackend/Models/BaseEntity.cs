@@ -14,7 +14,7 @@ namespace MetersNetBackend.Models
     public class BaseEntity
     {
         [Key]
-        public virtual int Id { get; set; }
+        public virtual Guid Id { get; set; }
 
         [System.Text.Json.Serialization.JsonIgnore]
         [JsonIgnore]
