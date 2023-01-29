@@ -1,21 +1,23 @@
 version: "3"
 services:
   api:
+    restart: always
     build: ./backend/MetersDjangoServer
     ports:
       - "1234:8080"
     container_name: meters-api
     hostname: meters-api
     networks:
-      - global
+      - meters-network
   client:
+    restart: always
     build: ./frontend/my-app
     ports:
       - "1235:80"
     container_name: meters-client
     hostname: meters-client
     networks:
-      - global
+      - meters-network
 
 networks:
   meters-network:
